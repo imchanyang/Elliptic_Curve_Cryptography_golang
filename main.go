@@ -256,6 +256,7 @@ func main() {
 			fmt.Println(k, "P=", Q, "is not on the curve", score)
 			os.Exit(3)
 		}
+
 		score += 1
 	}
 
